@@ -13,6 +13,8 @@
 		7863E4912159D0F90007A9DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7863E4902159D0F90007A9DB /* Assets.xcassets */; };
 		7863E4942159D0F90007A9DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7863E4922159D0F90007A9DB /* LaunchScreen.storyboard */; };
 		7863E49F2159D0F90007A9DB /* JXNotificationEmitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7863E49E2159D0F90007A9DB /* JXNotificationEmitterTests.swift */; };
+		7863E4AB2159D2950007A9DB /* JXNotificationEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7863E4AA2159D2950007A9DB /* JXNotificationEmitter.swift */; };
+		7863E4AD2159E9E50007A9DB /* NotificationConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7863E4AC2159E9E50007A9DB /* NotificationConst.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		7863E49A2159D0F90007A9DB /* JXNotificationEmitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXNotificationEmitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7863E49E2159D0F90007A9DB /* JXNotificationEmitterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXNotificationEmitterTests.swift; sourceTree = "<group>"; };
 		7863E4A02159D0F90007A9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7863E4AA2159D2950007A9DB /* JXNotificationEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXNotificationEmitter.swift; sourceTree = "<group>"; };
+		7863E4AC2159E9E50007A9DB /* NotificationConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationConst.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,14 @@
 		7863E4882159D0F80007A9DB /* JXNotificationEmitter */ = {
 			isa = PBXGroup;
 			children = (
+				7863E4A92159D2620007A9DB /* JXNotificationEmitter */,
 				7863E4892159D0F80007A9DB /* AppDelegate.swift */,
 				7863E48B2159D0F80007A9DB /* ViewController.swift */,
 				7863E48D2159D0F80007A9DB /* Main.storyboard */,
 				7863E4902159D0F90007A9DB /* Assets.xcassets */,
 				7863E4922159D0F90007A9DB /* LaunchScreen.storyboard */,
 				7863E4952159D0F90007A9DB /* Info.plist */,
+				7863E4AC2159E9E50007A9DB /* NotificationConst.swift */,
 			);
 			path = JXNotificationEmitter;
 			sourceTree = "<group>";
@@ -94,6 +100,14 @@
 				7863E4A02159D0F90007A9DB /* Info.plist */,
 			);
 			path = JXNotificationEmitterTests;
+			sourceTree = "<group>";
+		};
+		7863E4A92159D2620007A9DB /* JXNotificationEmitter */ = {
+			isa = PBXGroup;
+			children = (
+				7863E4AA2159D2950007A9DB /* JXNotificationEmitter.swift */,
+			);
+			path = JXNotificationEmitter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +211,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7863E4AD2159E9E50007A9DB /* NotificationConst.swift in Sources */,
+				7863E4AB2159D2950007A9DB /* JXNotificationEmitter.swift in Sources */,
 				7863E48C2159D0F80007A9DB /* ViewController.swift in Sources */,
 				7863E48A2159D0F80007A9DB /* AppDelegate.swift in Sources */,
 			);

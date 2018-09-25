@@ -15,7 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        JXNotificationEmitter.sharedInstance.addObserver(forName: NotificationConstants.kTestNotification, using: { (noti) in
+            print("receive one noti")
+            if let userInfo = noti.userInfo {
+                print(userInfo)
+            }
+        })
+        
         return true
     }
 
